@@ -73,12 +73,10 @@ body {
 }
 
 .search_icons {
-
   width: 50%;
   height: auto;
   margin-top: 10px;
   margin-left: 20px;
-
 }
 
 a {
@@ -90,7 +88,6 @@ a {
 
 a:hover {
   color: crimson;
-
 }
 
 a:active {
