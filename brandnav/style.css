@@ -139,7 +139,7 @@ a:active {
 @media screen and (max-width: 850px) {
   .page {
     max-width: 768px;
-
+    display: inline-block;
   }
 
   #menu {
