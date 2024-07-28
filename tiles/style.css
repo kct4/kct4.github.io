@@ -33,6 +33,7 @@ body {
   position: sticky;
   opacity: 0.75;
   top: 0;
+  width: auto;
 }
 
 .logo {
