@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container {
+    width: 96%;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+
+}
+
+.row [class^="col"] {
+    float: left;
+    margin: 0% 0%;
+    min-height: 0.125rem;
+}
+
+
+.col-1 {
+    width: 8.33%;
+    background: #e60000;
+    opacity: .5;
+}
+
+.col-2 {
+    width: 16.66%;
+    background: #cc0000;
+    opacity: .5;
+}
+
+.col-3 {
+    width: 25%;
+    background: #e60000;
+
+}
+
+.col-4 {
+    width: 33.33%;
+    background: #cc0000;
+}
+
+.col-5 {
+    width: 41.67%;
+    background: #b30000;
+}
+
+.col-6 {
+    width: 50%;
+    background: #990000;
+}
+
+
+.col-7 {
+    width: 58.33%;
+    background: #800000;
+}
+
+.col-8 {
+    width: 66.67%;
+    background: #660000;
+}
+
+.col-9 {
+    width: 75%;
+    background: #4d0000;
+}
+
+.col-10 {
+    width: 83.33%;
+    background: #330000;
+}
+
+.col-11 {
+    width: 91.67%;
+    background: #190000;
+}
+
+.col-12 {
+    width: 100%;
+    background: #000000;
+}
+
+/* This is clearfix, clearing content after each row*/
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div [class^="col"] {
+    height: 100px;
+    border: 1px solid white;
+
+}
