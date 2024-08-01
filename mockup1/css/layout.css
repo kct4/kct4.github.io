@@ -45,7 +45,7 @@ body {
 }
 
 .hero_content img {
-  width: 100%;
+  width: 300px;
 }
 
 
@@ -85,4 +85,19 @@ div [class^="side_bar"]:first-of-type {
 div [class^="side_bar"]:last-of-type {
   margin: 0px;
 
+}
+
+.blog {
+  font-size: 16px;
+  color: black;
+  width: 350px;
+  text-align: justify;
+  padding: 15px;
+
+}
+
+.blog img {
+  float: left;
+  width: 200px;
+  padding-right: 10px;
 }
