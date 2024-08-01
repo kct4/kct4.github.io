@@ -72,8 +72,8 @@ body {
 
 .side_bar img {
   float: right;
-  height: auto;
-  width: auto;
+  height: 200px;
+  width: 250px;
 }
 
 /* [class^="side_bar"] element that starts with */
