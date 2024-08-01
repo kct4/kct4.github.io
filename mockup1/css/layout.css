@@ -48,6 +48,10 @@ body {
   width: 300px;
 }
 
+.hero img {
+  width: fit-content;
+}
+
 
 
 /* SIDEBAR COMPONENT */
