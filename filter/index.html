@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Filters</title>
+  <style>
+    .my_filter {
+      -webkit-filter: grayscale(100%) brightness(10%);
+      filter: grayscale(100%);
+    }
+
+    .my_filter:hover {
+      animation: 3s myfilteranimation forwards;
+    }
+
+    @keyframes myfilteranimation {
+      100% {
+        -webkit-filter: hue-rotate(90deg) brightness(100%);
+        filter: hue-rotate(90deg) brightness(100%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <img class="my_filter" src="img/flower.jpg" alt="flower">
+</body>
+
+</html>
