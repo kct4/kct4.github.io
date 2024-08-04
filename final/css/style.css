@@ -29,8 +29,12 @@ body {
   align-items: center;
   justify-content: flex-start;
   height: 100px;
-  background-color: white;
-
+  position: sticky;
+  opacity: 1;
+  top: 0;
+  width: auto;
+  z-index: 100;
+  background-color: #d1d1d1;
 }
 
 .logo {
